@@ -160,9 +160,7 @@ export default function Page() {
         <div className="h-[400px] mb-12 rounded-lg overflow-hidden bg-black/5">
           <SatelliteViewer />
         </div>
-        <div className="h-[400px] mb-12 rounded-lg overflow-hidden bg-black/5">
-        <RemoteSensingOverview />
-        </div>
+        
 
         
 
