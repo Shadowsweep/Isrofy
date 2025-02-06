@@ -52,22 +52,22 @@
     "react-dom": "^18",
     "react-hook-form": "^7.54.1",
     "react-resizable-panels": "^2.1.7",
+    "react-vertical-timeline-component": "latest",
     "recharts": "latest",
     "sonner": "^1.7.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
+    "three": "^0.173.0",
     "vaul": "^0.9.6",
-    "zod": "^3.24.1",
-    "three": "latest",
-    "react-vertical-timeline-component": "latest"
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/node": "^22",
-    "@types/react": "^18",
+    "@types/node": "22.13.1",
+    "@types/react": "19.0.8",
     "@types/react-dom": "^18",
     "postcss": "^8",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5"
+    "typescript": "5.7.3"
   },
   "description": "new proj",
   "main": "tailwind.config.js",
