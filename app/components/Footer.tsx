@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
       </div>
       
       <div className="text-center text-gray-500 text-sm mt-6 border-t border-gray-700 pt-4">
-        &copy; {new Date().getFullYear()} Company Name. All rights reserved.
+        &copy; {new Date().getFullYear()} Shadowsweep All rights reserved.
       </div>
     </footer>
   );
