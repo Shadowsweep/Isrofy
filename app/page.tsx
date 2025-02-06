@@ -8,6 +8,9 @@ import Statistics from "@/app/components/statistics"
 import MissionTable from "@/app/components/mission-table"
 import { Input } from "@/components/ui/input"
 import IsroCenters from "./components/IsroCentres"
+import SatelliteLauncher from "@/app/components/SatelliteLauncher"
+import RemoteSensingOverview from "./components/RemoteSensingOverview"
+import Footer from "./components/Footer"
 
 const missions = [
   { name: "Rohini Technology Payload", launchDate: "1979-10-08", status: "Unsuccessful" },
@@ -140,7 +143,14 @@ export default function Page() {
       />
     </div>
   </div>
-</header>
+</header> 
+<div className="min-h-screen bg-background container mx-auto px-4 py-8 ">
+ <SatelliteLauncher />
+ </div>
+ 
+  
+   <RemoteSensingOverview/>
+ 
 
       <main className="container mx-auto px-4 py-8">
 
@@ -149,6 +159,9 @@ export default function Page() {
         {/* 3D Satellite Viewer */}
         <div className="h-[400px] mb-12 rounded-lg overflow-hidden bg-black/5">
           <SatelliteViewer />
+        </div>
+        <div className="h-[400px] mb-12 rounded-lg overflow-hidden bg-black/5">
+        <RemoteSensingOverview />
         </div>
 
         
@@ -175,6 +188,8 @@ export default function Page() {
           </div>
           <MissionTable missions={filteredMissions} />
         </section>
+
+        <Footer/>
       </main>
     </div>
   )
