@@ -11,6 +11,7 @@ import IsroCenters from "./components/IsroCentres"
 import SatelliteLauncher from "@/app/components/SatelliteLauncher"
 import RemoteSensingOverview from "./components/RemoteSensingOverview"
 import Footer from "./components/Footer"
+import Chatbot from "./components/Chatbot"
 
 const missions = [
   { name: "Rohini Technology Payload", launchDate: "1979-10-08", status: "Unsuccessful" },
@@ -162,6 +163,7 @@ export default function Page() {
         </div>
         
 
+
         
 
         {/* Statistics Dashboard */}
@@ -186,6 +188,7 @@ export default function Page() {
           </div>
           <MissionTable missions={filteredMissions} />
         </section>
+        <Chatbot/>
 
         <Footer/>
       </main>
